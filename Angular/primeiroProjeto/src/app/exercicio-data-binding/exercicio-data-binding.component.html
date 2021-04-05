@@ -1,0 +1,10 @@
+<input type="text" [value]="inicialVar">
+<br>
+<button [disabled]="isDisabled">Clique em mim</button>
+<br>
+<p [attr.aria-label]="isDisabled ? 'botao desbilitado' : textoAcessibilidade">
+    Texto qualquer bla bla bla ... 
+</p>
+<!-- <p [attr.aria-label]="textoAcessibilidade"> Um texto xpto ...</p> -->
+<br>
+<img [src]="getImageURL()">
